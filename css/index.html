@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS bersama Arkademi</title>
+    <style>
+        h1 {
+            color: brown;
+        }
+        h5{
+            color: white;
+        }
+        .bg-blue{
+            background-color: blue;
+        }
+        .font-large{
+            font-size: 5rem;
+        }
+        #btn{
+            border: 2px solid red;
+        }
+
+        .btn-daftar{
+            color: white;
+            background-color: #0977be;
+            border: none;
+            padding: 10px 25px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .card{
+            padding: 4rem;
+            border-width: 3px;
+            border-style: solid;
+            border-top-color: blueviolet;
+            border-bottom-color: aquamarine;
+            /* border: 2px solid #0977be; */
+            width: fit-content;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+
+        .card-2{
+            color: white;
+            padding: 4rem;
+            border-width: 3px;
+            border-style: solid;
+            border-top-color: blueviolet;
+            border-bottom-color: aquamarine;
+            /* border: 2px solid #0977be; */
+            width: fit-content;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            background-image: url("https://img.freepik.com/free-photo/abstract-dark-background-with-flowing-colouful-waves_1048-13124.jpg");
+        }
+
+        .card-3{
+            color: white;
+            padding: 4rem;
+            border: 2px solid #0977be;
+            width: fit-content;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            background-image: url("../css/png-transparent-black-wall-background-black-wall-poster-banner.png");
+        }
+        .box{
+            background-color: #0977be;
+            width: 150px;
+            height: 50px;
+            /* transition: width 2s, height 2s, background-color 2s; */
+            /* transition: all 2s;
+            transition-delay: 2s; */
+            animation: animasiKotak 2s ease 3 alternate forwards running;
+        }
+        /* .box:hover{
+            width: 700px;
+            height: 400px;
+            background-color: blueviolet;
+        } */
+        img{
+            filter: blur(2px);
+        }
+
+        @keyframes animasiKotak {
+            from{
+                background-color: #0977be;
+                width: 150px;
+                height: 50px;
+            }
+            to{
+               width: 700px;
+                height: 400px;
+                background-color: blueviolet; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tingkatkan Karier Profesionalmu</h1>
+    <div class="bg-blue">
+        element ini background biru
+    </div>
+    <!-- <button id="btn">Login</button> -->
+
+    <h5 class="bg-blue font-large" id="btn">Lembaga Pelatihan Resmi</h5>
+    <button class="btn-daftar">Daftar</button><br><br>
+    <div class="card">
+        Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.
+    </div>
+    <!-- <div class="card-2">
+        Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.
+    </div>
+    <div class="card-3">
+        Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.
+    </div> -->
+
+    <div class="box"></div>
+
+    <img src="./png-transparent-black-wall-background-black-wall-poster-banner.png" />
+</body>
+</html>

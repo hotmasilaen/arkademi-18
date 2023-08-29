@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="root"></p>
+    <script>
+
+        const umur = 20;
+        let alamat = "Jakarta";
+        alamat = "Medan";
+
+        const nilai1 = 200; // number
+        const nilai2 = '400'; // string
+        console.log(typeof nilai2);
+
+        const hasil = nilai1 + nilai2;
+        console.log("Hasil: ", hasil);
+
+
+        const harga = 40000;
+        const diskon = 0.05;
+        const ongkir = 10000;
+        const bayar = (harga - (harga * diskon)) + ongkir;
+        console.log('Yang harus di bayar: ', bayar);
+
+        const uang = 2000;
+        const pembagi = 700;
+        const hasilModulus = uang % pembagi
+        console.log("Hasil modulus: ", hasilModulus);
+
+        const password = 12345;
+        const passwordUser = 12345;
+
+        console.log("Password benar: ", password !== passwordUser);
+
+        // Pengulangan
+        for(var i = 1; i <= 5; i++){
+            console.log('Number: ' + i);    
+        }
+
+    </script>
+</body>
+</html>

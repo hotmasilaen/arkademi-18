@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 5rem 10rem;
+}
+.text-blue{
+    color: #006cbb;
+}
+.sub-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.logo{
+    margin-right: 20px;
+}
+button{
+    background: linear-gradient(261.28deg,#ff9417 18.17%,#ff8017 84.69%);
+    border-radius: 0.429vw;
+    border: none;
+    outline: none;
+    min-width: 24.285vw;
+    height: 3.932vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.701vw;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.097vw;
+    line-height: 1.357vw;
+    letter-spacing: .013vw;
+    color: #fff;
+}
+.card{
+    margin: 5rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.sub-card{
+    border: 2px solid gray;
+    padding: 3rem;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML H-1</title>
+    <style>
+        .text-yellow{
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        function validationForm() {
+            let x = document.forms["myForm"]["fname"].value;
+
+            if(x == '') {
+                alert("Nama harus diisi ya...")
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- <h1>Tingkatkan Karier Profesionalmu</h1> -->
+    <h1>Tingkatkan Karier Profesionalmu</h1>
+    Lembaga Pelatihan Resmi untuk<br>
+    <b>Lembaga Pelatihan Resmi untuk</b>
+    <button>Daftar</button><br>
+
+
+    <a href="https://prakerja.arkademi.com/">Prakerja</a>
+
+    <img alt="gambar-mentor" src="https://arkademi.com//image?url=%2F_next%2Fstatic%2Fmedia%2Fapp-web.ebf2ea6d.webp&w=828&q=75" /><br><br><br>
+
+    <p class="text-yellow">Lebih dari 500 kursus online dengan sertifikasi resmi untuk para pekerja dan profesional Indonesia dalam meningkatkan karier dan keahlian. Disusun dan diajarkan oleh instruktur ahli berpengalaman dengan pengakuan industri dan lisensi profesi.</p>
+
+    <mark>Lebih dari 500 kursus online dengan sertifikasi resmi untuk para pekerja dan profesional Indonesia dalam meningkatkan karier dan keahlian. Disusun dan diajarkan oleh instruktur ahli berpengalaman dengan pengakuan industri dan lisensi profesi.</mark>
+    <br><br>
+
+    <!-- CONTOH FORM VALIDATION -->
+
+    <form name="myForm" onsubmit="return validationForm()">
+        Name: <input type="text" name="fname" />
+        <input type="submit" name="Submit" />
+    </form>
+
+
+</body>
+</html>
